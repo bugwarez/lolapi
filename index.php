@@ -20,16 +20,16 @@
 			<nav>
   <ul>
     <li>
-      <a href="">Home</a>
+      <a class="link" href="index.php">Home</a>
     </li>
     <li>
-      <a href="">Live Game</a>
+      <a class="link" href="livegame.php">Live Game</a>
     </li>
     <li>
-      <a href="">Champion Stats</a>
+      <a class="link" href="champions.php">Champion Stats</a>
     </li>
     <li>
-      <a href="#">Contact</a>
+      <a class="link" href="functions.php">Func Deneme</a>
     </li>
   </ul>
 </nav>

@@ -18,16 +18,16 @@
 			<nav>
   <ul>
     <li>
-      <a href="index.php">Home</a>
+      <a class="link" href="index.php">Home</a>
     </li>
     <li>
-      <a href="livegame.php">Live Game</a>
+      <a class="link" href="livegame.php">Live Game</a>
     </li>
     <li>
-      <a href="champions.php">Champion Stats</a>
+      <a class="link" href="champions.php">Champion Stats</a>
     </li>
     <li>
-      <a href="#">Contact</a>
+      <a class="link" href="functions.php">Func Deneme</a>
     </li>
   </ul>
 </nav>
@@ -52,7 +52,7 @@
             }else{$chest_return = "Kazanılmamış";}
             if ($chest_return == 'Zaten Kazanılmış')
             {
-              //echo "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmq-0Mi0wHkI2lCV5hFEm1a54GGN7uIQ3Qo2XWwB2G3N-i011C'width='32px'>";
+              echo "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmq-0Mi0wHkI2lCV5hFEm1a54GGN7uIQ3Qo2XWwB2G3N-i011C'width='32px'>";
             }
             else
             {

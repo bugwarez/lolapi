@@ -13,6 +13,22 @@
         <link rel="stylesheet" type="text/css" href="./resources/css/style2.css">
     
 </head>
+<nav>
+  <ul>
+    <li>
+      <a class="link" href="index.php">Home</a>
+    </li>
+    <li>
+      <a class="link" href="livegame.php">Live Game</a>
+    </li>
+    <li>
+      <a class="link" href="champions.php">Champion Stats</a>
+    </li>
+    <li>
+      <a class="link" href="functions.php">Func Deneme</a>
+    </li>
+  </ul>
+</nav>
 <body>
 <?php 
 	$api_key = "RGAPI-41b61337-762f-4866-a6f5-ef1bce4cd7d3";
