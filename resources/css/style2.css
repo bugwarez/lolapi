@@ -1183,15 +1183,36 @@ nav ul li a:hover {
   color: rgba(0, 35, 122, 0.7);
 }
 
-.panel {
+/*.panel {
 	border-top: 2px solid springgreen;
 	border-bottom: 2px solid springgreen;
 	float: left;
 	height: 135px;
 	width: calc(20% - 50px);
-	margin: 8px 25px 0 0;  
+	margin: 8px 25px 0 0;
   }
   .container {
 	width: 940px;
 	max-width: 100%;
-  }
+  }*/
+  .containers {
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    width:100%;
+}
+.containers>div {
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    background:red;
+}
+span {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}

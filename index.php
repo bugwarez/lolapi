@@ -360,7 +360,7 @@
 							{
 								echo "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmq-0Mi0wHkI2lCV5hFEm1a54GGN7uIQ3Qo2XWwB2G3N-i011C'width='32px'>";
 							}
-							else
+							if ($store_status == "offline")
 							{
 								echo "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQiVcj-sie7yNUrhZacxR5GsEbvfeqw3D2WW1h5p_o6amD_6RSA'width='15px'>";
 							}
@@ -369,7 +369,7 @@
 							{
 								echo "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmq-0Mi0wHkI2lCV5hFEm1a54GGN7uIQ3Qo2XWwB2G3N-i011C'width='32px'>";
 							}
-							else
+							if ($web_status == "offline")
 							{
 								echo "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQiVcj-sie7yNUrhZacxR5GsEbvfeqw3D2WW1h5p_o6amD_6RSA'width='15px'>";
 							}
@@ -378,7 +378,7 @@
 							{
 								echo "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmq-0Mi0wHkI2lCV5hFEm1a54GGN7uIQ3Qo2XWwB2G3N-i011C'width='32px'>";
 							}
-							else
+							if ($client_status == "offline")
 							{
 								echo "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQiVcj-sie7yNUrhZacxR5GsEbvfeqw3D2WW1h5p_o6amD_6RSA'width='15px'>";
 							}
