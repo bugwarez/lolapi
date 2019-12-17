@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0,width=device-width">
-	<title>EloCloud Finder</title>
+	<title>Macr0LOL</title>
 	<script async="" src="./resources/img/cloud.png"></script>
 	<link rel="icon" type="image/png" sizes="32x32" href="resources/img/base-icons/bronze.png">
 	<link rel="shortcut icon" href="favicon.png">
